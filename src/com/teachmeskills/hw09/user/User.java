@@ -1,10 +1,8 @@
-package com.teachmeskills.hw09;
+package com.teachmeskills.hw09.user;
 
 import com.teachmeskills.hw09.exception.WrongLoginException;
 import com.teachmeskills.hw09.exception.WrongPasswordException;
 import com.teachmeskills.hw09.verification.Verification;
-
-import static com.teachmeskills.hw09.verification.Verification.validateLogin;
 
 public class User {
     public static void authorization(String login, String password, String confirmPassword) {

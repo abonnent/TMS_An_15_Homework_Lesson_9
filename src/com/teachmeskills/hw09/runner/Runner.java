@@ -1,4 +1,6 @@
-package com.teachmeskills.hw09;
+package com.teachmeskills.hw09.runner;
+
+import com.teachmeskills.hw09.user.User;
 
 public class Runner {
     public static void main(String[] args) {
